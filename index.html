@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <title>Calculator</title>
+ <script src="app.js"></script>
+</head>
+<body>
+    <h1>My Calculator</h1><br>
+  <div class="container-fluid">
+      <div class="row">
+          <div class="col-12">
+            <input id="result" type="text">
+          </div>
+          <div class="col-12">
+            <input id='getExp' type="text">
+        </div>
+         <div class="col-12">
+            <button class="c" onclick="clearResult()">C</button>
+         </div>
+         <div class="col-3">
+            <button class="smallbuttons" onclick="getNumber('7')">7</button>
+         </div>
+         <div class="col-3">
+            <button class="smallbuttons" onclick="getNumber('8')">8</button>
+         </div>
+         <div class="col-3">
+            <button class="smallbuttons" onclick="getNumber('9')">9</button>
+         </div>
+         <div class="col-3">
+            <button class="signbuttons" onclick="getNumber('*')">X</button>
+         </div>
+
+         <div class="col-3">
+            <button class="smallbuttons" onclick="getNumber('4')">4</button>
+         </div>
+         <div class="col-3">
+            <button class="smallbuttons" onclick="getNumber('5')">5</button>
+         </div>
+         <div class="col-3">
+            <button class="smallbuttons" onclick="getNumber('6')">6</button>
+         </div>
+         <div class="col-3">
+            <button class="signbuttons" onclick="getNumber('-')">-</button>
+         </div>
+
+         <div class="col-3">
+            <button class="smallbuttons" onclick="getNumber('1')">1</button>
+         </div>
+         <div class="col-3">
+            <button class="smallbuttons" onclick="getNumber('2')">2</button>
+         </div>
+         <div class="col-3">
+            <button class="smallbuttons" onclick="getNumber('3')">3</button>
+         </div>
+         <div class="col-3">
+            <button class="signbuttons" onclick="getNumber('+')">+</button>
+         </div>
+         
+         <div class="col-5">
+            <button class="smallbuttons" onclick="getNumber('0')">0</button>
+         </div>
+         <div class="col-4">
+            <button class="smallbuttons" onclick="getResult('=')">=</button>
+         </div>
+         <div class="col-3">
+            <button class="signbuttons" onclick="getNumber('/')">/</button>
+         </div>
+      </div>
+  </div>
+
+    <!-- <div class="caldiv">
+        <div>
+            <input id="result" type="text">
+        </div>
+       <div>
+           <input id='getExp' type="text">
+       </div>
+       <div class="cdiv">
+           <button class="c" onclick="clearResult()">C</button>
+       </div>
+       <div class="smallbuttonsdiv">
+           <button class="smallbuttons" onclick="getNumber('7')">7</button>
+           <button class="smallbuttons" onclick="getNumber('8')">8</button>
+           <button class="smallbuttons" onclick="getNumber('9')">9</button>
+           <button class="smallbuttons" onclick="getNumber('*')">X</button>
+       </div>
+       <div class="smallbuttonsdiv">
+        <button class="smallbuttons" onclick="getNumber('4')">4</button>
+        <button class="smallbuttons" onclick="getNumber('5')">5</button>
+        <button class="smallbuttons" onclick="getNumber('6')">6</button>
+        <button class="smallbuttons" onclick="getNumber('-')">-</button>
+    </div>
+    <div class="smallbuttonsdiv">
+        <button class="smallbuttons" onclick="getNumber('1')">1</button>
+        <button class="smallbuttons" onclick="getNumber('2')">2</button>
+        <button class="smallbuttons" onclick="getNumber('3')">3</button>
+        <button class="smallbuttons" onclick="getNumber('+')">+</button>
+    </div>
+    <div class="smallbuttonsdiv">
+        <button class="bigbuttons" onclick="getNumber('0')">0</button>
+        <button class="bigbuttons" onclick="getResult()">=</button>
+    </div>
+    </div> -->
+</body>
+</html>

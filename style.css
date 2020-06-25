@@ -1,0 +1,74 @@
+
+*{
+    color: white;
+}
+h1{
+    color: #8e24aa;
+    text-decoration: underline;
+    text-align: center;
+}
+.container-fluid{
+    background-color: blue;
+    width: 50% !important;
+}
+
+#getExp{
+    font-size: 30px;
+}
+#result{
+    font-size: 40px;
+}
+input{
+    border: none;
+    width: 100%;
+    height: 10vh;
+    display: block;
+    margin: 0px auto;
+    background-color:  #e1bee7;
+}
+.c{
+    font-size: 30px;
+     border: none;
+     width: 100%;
+    background-color: #9c27b0;
+     height: 10vh;
+     display: block;
+     margin: 0px auto;
+  
+ }
+ .c:hover{
+     background-color: #ce93d8;
+ }
+ .signbuttons:hover{
+    background-color: #ce93d8;
+ }
+ .smallbuttons:hover{
+    background-color: #7b1fa2;
+
+ }
+ .col-3,.col-12,.col-4,.col-5{
+     background-color: yellow;
+     padding: 0 !important;
+ }
+ .smallbuttons{
+   border: 1px solid #8e24aa !important;
+    font-size: 30px;
+    border: none;
+    width: 100%;
+   
+    height: 10vh;
+    background-color: #ba68c8;
+}
+.signbuttons{
+    font-size: 30px;
+    border: none;
+    width: 100%;
+   
+    height: 10vh;
+    background-color: #9c27b0;
+
+
+}
+input:focus,.smallbuttons:focus,.signbuttons:focus,.c:focus{
+    outline: none;
+}
